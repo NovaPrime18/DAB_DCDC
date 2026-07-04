@@ -3,7 +3,7 @@
 [![License: CERN-OHL-S v2.0](https://img.shields.io/badge/License-CERN--OHL--S%20v2.0-blue.svg)](https://ohwr.org/cern_ohl_s_v2.txt)
 [![KiCad](https://img.shields.io/badge/Made%20with-KiCad-blue)](https://www.kicad.org/)
 
-<img src="https://raw.githubusercontent.com/NovaPrime18/DAB_DCDC/Pictures/DAB8.png" width="100%">
+<img src="https://raw.githubusercontent.com/NovaPrime18/DAB_DCDC/Pictures/DAB9T.png" width="100%">
 
 Hardware files for a high-power, high-frequency DC-DC converter PCB, developed as a
 prototype module for a modular 500kW off-grid EV DC fast charger. The board implements
