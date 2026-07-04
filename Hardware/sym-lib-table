@@ -1,0 +1,7 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "dabsyms")(type "KiCad")(uri "${KIPRJMOD}/dabsyms.kicad_sym")(options "")(descr ""))
+  (lib (name "DABlib")(type "KiCad")(uri "${KIPRJMOD}/DABlib.kicad_sym")(options "")(descr ""))
+  (lib (name "TI_Meuk")(type "KiCad")(uri "${KIPRJMOD}/TI_Meuk.kicad_sym")(options "")(descr ""))
+  (lib (name "PUCC14141QDWNQ1")(type "KiCad")(uri "/home/tj/Documents/New-Electric Internship/DAB_DCDC/Part libs/PUCC14141QDWNQ1.kicad_sym")(options "")(descr ""))
+)

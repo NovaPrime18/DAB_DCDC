@@ -1,0 +1,29 @@
+(version 1)
+
+(rule "LoW cLeArAnce BeTWeen neTS of THe SAme HV potential"
+	(constraint clearance (min 0.25mm))
+	(condition " A.NetClass == B.NetClass && A.NetClass == 'HV*' " ))
+
+(rule "HIgH cLeArAnce BeTWeen neTS of dIfferenT HV potentials"
+	(constraint clearance (min 3.0mm))
+	(condition " A.NetClass != B.NetClass && A.NetClass == 'HV*' && B.NetClass == 'HV*' " ))
+
+(rule "HIgH cLeArAnce BeTWeen LV And HV neTS"
+	(constraint clearance (min 3.0mm))
+	(condition " A.NetClass == 'HV*' && B.NetClass != 'HV*' " ))
+
+(rule "low cLeArAnce BeTWeen LV_ISO And HV neTS"
+	(constraint clearance (min 0.25mm))
+	(condition " A.NetClass == 'HV*' && B.NetClass == 'LV_ISO' " ))
+
+(rule "High cLeArAnce BeTWeen LV_ISO And HV_S+ neTS"
+	(constraint clearance (min 3mm))
+	(condition " A.NetClass == 'HV_S+' && B.NetClass == 'LV_ISO' " ))
+
+(rule "Low between LV and S- nets"
+	(constraint clearance (min 0.25mm))
+	(condition " A.NetClass == 'HV_S-' && B.NetClass != 'HV*'" ))
+
+(rule "Low between LV and P- nets"
+	(constraint clearance (min 0.25mm))
+	(condition " A.NetClass == 'HV_P-' && B.NetClass != 'HV*'" ))
