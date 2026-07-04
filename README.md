@@ -71,7 +71,7 @@ These rules were applied during layout and should be followed in any revision:
   transformer core.
 
 <img src="https://raw.githubusercontent.com/NovaPrime18/DAB_DCDC/main/Pictures/DAB11.png" width="100%">
-<img src="https://raw.githubusercontent.com/NovaPrime18/DAB_DCDC/main/Pictures/DAB10.png" width="100%">
+<img src="https://raw.githubusercontent.com/NovaPrime18/DAB_DCDC/main/Pictures/DAB10.jpg" width="100%">
 ## Known issues / errata (first prototype build)
 
 These were found during assembly/bring-up of the first board and are **not yet fixed on
